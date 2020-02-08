@@ -10,7 +10,7 @@ export default class SimpleButton extends Component {
     render() {
         const { text, onClick } = this.props;
         return (
-            <button onClick={() => onClick()}>{text}</button>
+            <button onClick={(e) => onClick()}>{text}</button>
         )
 
     }
